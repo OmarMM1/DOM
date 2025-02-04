@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th,td{
+    border: black solid 1px;
+}
+    </style>
+    <link rel="stylesheet" href="Local.css">
+</head>
+<body>
+    <h1>CRUD Application with local storage</h1>
+    <div style="background-color: blanchedalmond;">
+        <label for="Name">Name</label>
+        <input type="text" id="Name" placeholder="your Name">
+        <label for="age">age</label>
+        <input type="text" id="age" placeholder="your Age" style="padding: 5px;">
+        <label for="address">address</label>
+        <input type="text" id="address" placeholder="your address">
+        <label for="email">email</label>
+        <input type="email" id="email" placeholder="your emails">
+        <button class="Add" style="background-color: green;padding: 5px;">Add Data</button>
+    </div>
+    <table >
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Address</th>
+            <th>Email</th>
+            <th>Action</th>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+    </table>
+    <script src="Localstorage.js"></script>
+</body>
+</html>

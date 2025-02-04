@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+       .square div{
+        background-color: #f1f1f1;
+        width: 50px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+        align-content: center;
+        /* justify-content: end; */
+       }
+    .clear-red{
+        visibility: hidden;
+    }
+    </style>
+    
+</head>
+<body>
+    
+        <h1 class="Dom" style="color: #0f4fef; padding-left: 40%;">Dom Task</h1>
+    <div style="display: flex; align-items: center; padding: 7px; margin-left:140px; ">
+        <input type="submit" class="oblique" value="oblique" style="color: rgb(128, 53, 0);padding: 7px; margin: 10px ;">
+        <input type="submit" class="italic" value="italic" style="color: green;padding: 7px; margin: 10px ;">
+        <i class='bx bx-align-left' style="color: blue ; border: 1px blue solid  ;padding: 7px; margin: 10px ;"></i>
+        <i class='bx bx-objects-horizontal-center'style="color: rgb(77, 94, 94) ; border: 1px rgb(77, 94, 94) solid;padding: 7px; margin: 10px ;"></i>
+        <i class='bx bx-align-right'style="color: blue ; border: 1px blue solid;padding: 7px; margin: 10px ;"></i>
+        <input type="submit" class="UpperCase" value="Upper Case" style="color: rgb(77, 94, 94);padding: 7px; margin: 10px ;">
+        <input type="submit" class="LowerCase" value="Lower Case" style="color: rgba(0, 119, 255, 0.532);padding: 7px; margin: 10px ;">
+        <input type="submit" value="Capitalize" style="color: rgba(0, 119, 255, 0.532);padding: 7px; margin: 10px ;">
+        <input type="submit" class="ClearText" value="Clear Text" style="color: rgba(0, 119, 255, 0.532);padding: 7px; margin: 10px ;">
+        <div style="display: flex; border:rgba(0, 119, 255, 0.532) 2px solid ; align-items: center; padding: 2px;border-radius: 5px; margin: 10px ;">
+            <input type="color";>
+            <i class='bx bxs-paint' style="color: blue;"></i>
+        </div>
+        <div style="display: flex; border:rgba(0, 119, 255, 0.532) 2px solid ; align-items: center; padding: 2px;border-radius: 5px;; margin: 10px ;">
+            <input type="color";>
+            <i class='bx bx-color-fill' style="color:blue"></i>
+        </div>
+    </div>
+         <div style="display: flex;align-items: center ;margin-left: 140px;gap: 20px;">
+             <div style="border:rgba(0, 119, 255, 0.532) 2px solid ; width: 110px;padding: 3px;border-radius: 5px; margin: 20px;">
+                <input type="text" id="Font Size" name="Font Size" style="width: 70px; "value="47" >
+                <i class="fa-solid fa-font"></i>
+            </div>
+            <div style="border:rgba(0, 119, 255, 0.532) 2px solid ;padding:3px;border-radius: 5px;">
+                <select name="font" id="font">
+                    <option value="roman">roman</option>
+                    <option value="roman">ggsd</option>
+                    <option value="roman">roman</option>
+                </select>
+            </div>
+            <button class="print">print</button>
+        </div>   
+        <div class="square" style="margin-left: calc(50% - 250px) ;background-color: #809adc;width: 500px;height: 500px;display: flex;justify-content: center;">
+            <div class="bgred clear-red">1os</div>
+            <div class="bggreen">2a</div>
+            <div class="bgyellow">omar</div>
+            <div class="blue">4a</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+        </div>
+        
+        
+
+    <script src="./Dom Task.js"></script>
+</body>
+</html>
