@@ -22,14 +22,15 @@ const btn=document.getElementsByClassName("Add")
     btn.color
 function loadToLocalStorage(){
     const storeData = localStorage.getItem('myData');
+}
+
+    // const output = document.getElementById('output');
+    //     if(storeData){
+    //        output.textContent = "storeData = " + storeData;
    
-    const output = document.getElementById('output');
-        if(storeData){
-           output.textContent = "storeData = " + storeData;
+    //     }
+    //     else{
+    //        output.textContent = "No Data Found";
    
-        }
-        else{
-           output.textContent = "No Data Found";
-   
-        }
-    }
+    //     }
+    // }

@@ -1,0 +1,10 @@
+#body{
+    background-color: rgb(34, 34, 68);
+}
+
+* {
+   color: rgb(213, 212, 220);
+}
+#update{
+    display: none;
+}
